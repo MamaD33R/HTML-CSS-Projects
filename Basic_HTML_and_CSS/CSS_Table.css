@@ -1,0 +1,27 @@
+table {
+	border: 1px solid black;
+}
+
+td:hover {
+	background-color: cornsilk;
+	color: black;
+}
+
+td {
+    padding:0 15px;
+}
+
+tr, th {
+	background-color: pink;
+	color: black;
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+tr, td {
+	background-color: #4f2b3b;
+	color: white;
+	font-family: 'Akaya Telivigala', cursive;
+}
+h1 {
+	font-family: 'Akaya Telivigala', cursive;
+}
