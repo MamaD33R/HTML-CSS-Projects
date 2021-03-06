@@ -12,10 +12,10 @@ I've made a few websites to example my progress:
 ♥<a href="https://github.com/MamaD33R/HTML-CSS-Projects/tree/main/Basic_HTML_and_CSS/Project">Treehouse Resort Website</a>
   <br>
     <br>
-<strong>Movie Theater Website</strong>
+<h3><strong>Movie Theater Website</strong></h3>
   <br>
 I created an example movie theater website. There's a lot of simplicity and smooth effects due to using Bootstrap 4 and components like: cards, navbar, jumbotron, form, and dropdowns.
   <br>
-<strong>Treehosue Resort Website</strong>
+<h3><strong>Treehouse Resort Website</strong></h3>
   <br>
 I practiced creating a navbar, image containers, hover effects, and a form.
