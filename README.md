@@ -13,5 +13,9 @@ I've made a few websites to example my progress:
   <br>
     <br>
 <strong>Movie Theater Website</strong>
-<br>
+  <br>
+I created an example movie theater website. There's a lot of simplicity and smooth effects due to using Bootstrap 4 and components like: cards, navbar, jumbotron, form, and dropdowns.
+  <br>
+<strong>Treehosue Resort Website</strong>
+  <br>
 I practiced creating a navbar, image containers, hover effects, and a form.
