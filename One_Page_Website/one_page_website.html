@@ -4,6 +4,7 @@
 		<title>Monster Hunter World Fansite</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="CSS/one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
 	</head>
 	<body>
 		
@@ -60,52 +61,69 @@
 				<div>
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
-							<img src="https://www.xboxone-hq.com/images/games/screenshots/1491-monster-hunter-world-screenshot-1498284902_1498284902.jpg" height="150" width="300">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>Monster Hunter World Screenshot</p>
-							</div>
+					<div class="row">
+						<div class="column">
+							<img src="https://www.xboxone-hq.com/images/games/screenshots/1491-monster-hunter-world-screenshot-1498284902_1498284902.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 1 -->
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
-							<img src="https://www.mcvuk.com/wp-content/uploads/monster_hunter-_world_iceborne_-_publicity_-_h_2019.jpg" height="150" width="300">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>Monster Hunter World Screenshot</p>
-							</div>
+					<div class="row">
+						<div class="column">
+							<img src="https://www.mcvuk.com/wp-content/uploads/monster_hunter-_world_iceborne_-_publicity_-_h_2019.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 2 -->
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
-							<img src="https://i.redd.it/63wcxqhh1wg01.png" height="150" width="300">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>Monster Hunter World Screenshot</p>
-							</div>
+					<div class="row">
+						<div class="column">
+							<img src="https://i.redd.it/63wcxqhh1wg01.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 3 -->
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="http://images.gamersyde.com/image_monster_hunter_world-40892-3899_0014.jpg" height="150" width="300">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>Monster Hunter World Screenshot</p>
-							</div>
+					<div class="row">
+						<div class="column">
+							<img src="http://images.gamersyde.com/image_monster_hunter_world-40892-3899_0014.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 4 -->
+
+					<div id="myModal" class="modal">
+						<span class="close cursor" onclick="closeModal()">&times;</span>
+						<div class="modal-content">
+					  
+						  <div class="mySlides">
+							<div class="numbertext">1 / 4</div>
+							<img src="https://www.xboxone-hq.com/images/games/screenshots/1491-monster-hunter-world-screenshot-1498284902_1498284902.jpg" style="width:100%">
+						  </div>
+					  
+						  <div class="mySlides">
+							<div class="numbertext">2 / 4</div>
+							<img src="https://www.mcvuk.com/wp-content/uploads/monster_hunter-_world_iceborne_-_publicity_-_h_2019.jpg" style="width:100%">
+						  </div>
+					  
+						  <div class="mySlides">
+							<div class="numbertext">3 / 4</div>
+							<img src="https://i.redd.it/63wcxqhh1wg01.png" style="width:100%">
+						  </div>
+						  
+						  <div class="mySlides">
+							<div class="numbertext">4 / 4</div>
+							<img src="http://images.gamersyde.com/image_monster_hunter_world-40892-3899_0014.jpg" style="width:100%">
+						  </div>
+						  
+						  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+					  
+						  <div class="caption-container">
+							<p id="caption"></p>
+						  </div>
+					  
 			
 			<!-- FOOTER -->
 			<div id="contact">
