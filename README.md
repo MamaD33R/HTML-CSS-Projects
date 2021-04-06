@@ -1,5 +1,5 @@
 <b>HTML & CSS PROJECTS</b>
-This is going to be where I store my different work on HTML/CSS for school!
+This is going to be where I store my different work on HTML/CSS.
   <br>
     <br>
 Switched from NotePad++ to Visual Studio Code
